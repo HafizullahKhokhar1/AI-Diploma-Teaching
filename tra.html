@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Transition Example</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: teal;
+      /* Transition lagaya */
+      /* Thoda center me dikhane ke liye margin */
+      margin: 50px auto;
+    }
+    .box:hover {
+      background-color: tomato; /* Hover pe color change */
+      width: 500px;
+        transition:  transform 0.6s ease-in-out; 
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
